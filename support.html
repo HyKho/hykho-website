@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HyKho Mobile - Support</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        nav {
+            background: #007AFF;
+            color: white;
+            padding: 1rem 0;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+        }
+        
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            transition: opacity 0.3s;
+        }
+        
+        .nav-links a:hover {
+            opacity: 0.8;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+            color: #333;
+            background: #f5f5f5;
+        }
+        
+        .content-wrapper {
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            margin-top: 20px;
+        }
+        h1 {
+            color: #007AFF;
+            border-bottom: 2px solid #007AFF;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #555;
+            margin-top: 30px;
+        }
+        .contact-box {
+            background: #f5f5f5;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        .faq-item {
+            margin: 20px 0;
+            padding: 15px;
+            background: #f9f9f9;
+            border-left: 4px solid #007AFF;
+        }
+        .faq-question {
+            font-weight: bold;
+            color: #007AFF;
+            margin-bottom: 10px;
+        }
+        a {
+            color: #007AFF;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <div class="logo">HyKho Mobile</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="support.html">Support</a></li>
+                <li><a href="privacy-policy.html">Privacy Policy</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <div class="content-wrapper">
+    <h1>HyKho Mobile - Support</h1>
+    
+    <div class="contact-box">
+        <h2>Need Help?</h2>
+        <p><strong>Contact Us:</strong></p>
+        <p>Email: <a href="mailto:support@hykho.com">support@hykho.com</a></p>
+        <p>We typically respond within 24-48 hours.</p>
+    </div>
+
+    <h2>Frequently Asked Questions</h2>
+
+    <div class="faq-item">
+        <div class="faq-question">How do I log in to the app?</div>
+        <p>You can log in using one of two methods:</p>
+        <ul>
+            <li><strong>QR Code:</strong> Scan the QR code from your HyKho web admin interface. This is the recommended method.</li>
+            <li><strong>Manual Token:</strong> Enter your API token manually if you have it.</li>
+        </ul>
+    </div>
+
+    <div class="faq-item">
+        <div class="faq-question">The camera is not working for QR code scanning</div>
+        <p>Make sure you've granted camera permissions:</p>
+        <ol>
+            <li>Go to your device Settings</li>
+            <li>Find "HyKho Mobile" in the app list</li>
+            <li>Enable Camera permissions</li>
+            <li>Return to the app and try scanning again</li>
+        </ol>
+    </div>
+
+    <div class="faq-item">
+        <div class="faq-question">The app is not syncing data</div>
+        <p>Check the following:</p>
+        <ul>
+            <li>Ensure you have an active internet connection</li>
+            <li>Check if your ERP server is accessible</li>
+            <li>The app will automatically sync when connection is restored</li>
+            <li>Try logging out and logging back in</li>
+        </ul>
+    </div>
+
+    <div class="faq-item">
+        <div class="faq-question">I forgot my API token</div>
+        <p>You can generate a new QR code from your HyKho web admin interface. The QR code contains all necessary authentication information.</p>
+    </div>
+
+    <div class="faq-item">
+        <div class="faq-question">The app crashes or freezes</div>
+        <p>Try these troubleshooting steps:</p>
+        <ol>
+            <li>Close the app completely and reopen it</li>
+            <li>Restart your device</li>
+            <li>Update to the latest version of the app</li>
+            <li>Clear app cache (Settings → Clear Cache)</li>
+            <li>If the problem persists, contact support with details about when the crash occurs</li>
+        </ol>
+    </div>
+
+    <div class="faq-item">
+        <div class="faq-question">How do I change the language?</div>
+        <p>Go to Settings → Language and select your preferred language. The app supports English and Vietnamese.</p>
+    </div>
+
+    <div class="faq-item">
+        <div class="faq-question">Can I use the app offline?</div>
+        <p>Yes! HyKho Mobile supports offline mode. You can view and work with cached data even without internet. Data will sync automatically when you're back online.</p>
+    </div>
+
+    <h2>Still Need Help?</h2>
+    <p>If you can't find the answer to your question, please contact us at <a href="mailto:support@hykho.com">support@hykho.com</a> with:</p>
+    <ul>
+        <li>Description of the issue</li>
+        <li>Steps to reproduce (if applicable)</li>
+        <li>Your device model and iOS version</li>
+        <li>App version (found in Settings → About)</li>
+    </ul>
+
+    <hr style="margin: 40px 0;">
+    <p style="text-align: center; color: #999; font-size: 14px;">
+        HyKho Mobile Support | Last updated: 2025
+    </p>
+    </div>
+    
+    <footer style="text-align: center; padding: 2rem 20px; color: #999; margin-top: 20px;">
+        <div style="margin-bottom: 1rem;">
+            <a href="index.html" style="color: #007AFF; text-decoration: none; margin: 0 1rem;">Home</a>
+            <a href="support.html" style="color: #007AFF; text-decoration: none; margin: 0 1rem;">Support</a>
+            <a href="privacy-policy.html" style="color: #007AFF; text-decoration: none; margin: 0 1rem;">Privacy Policy</a>
+        </div>
+        <p>&copy; 2025 HyKho Mobile. All rights reserved.</p>
+    </footer>
+</body>
+</html>
